@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Destination Generator!</title>
+  </head>
+
+  <header>
+  <!-- NAVBAR -->
+  <div class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">Surprise!</a></li>
+          <li><a href="">What else?</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <!-- NAVBAR END -->
+  </header>
+
+  <body>
+  <div id="gradient">
+    <div class="container">
+        <h1>Welcome to the Vacation Destination Generator!</h1>
+        <h2> Have you been wanting to take a break but don't know where to go?! Take our brief quiz below and we try to match you with a dream destination</h2>
+
+        <div id="blanks">
+          <form id="destination">
+            <div class="form-group">
+              <label for="relax">Do you want relaxation or adventures</label>
+              <input id="relax" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="beach">Do you prefer the beach or the mountains?</label>
+              <input id="beach" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="language">Do you prefer that people speak English at your destination?</label>
+              <input id="language" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="children">Do you plan to bring children?</label>
+              <input id="children" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="climate">Do you prefer a warm or cold climate?</label>
+              <input id="climate" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn" id="test">Tell me where to go!</button>
+
+            </form>
+          </div>
+      </div>
+
+
+      <div class="output">
+
+        <h3 id="output1">
+          <img src="img/orlando.jpg">
+          <h2>Disney Resort Orlando!</h2>
+          <p>Pack the kids up and head to Orlando's Disney World Resort. You can relax poolside or explore the park. There's plenty of time for both and the kids will remember the trip for a lifetime. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </h3>
+
+        <h3 id="output2">
+          <img src="img/cusco.jpg">
+          <h2>Cusco, Peru and Macchu Picchu</h2>
+          <p>You like adventures and Peru has plenty to offer! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </h3>
+
+        <h3 id="output3">
+          <img src="img/punta_mita.jpg">
+          <h2>Punta Mita, Mexico</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </h3>
+
+        </div>
+      </div>
+    <footer> This is a footer &copy; Hillary Hintzen 2016</footer>
+  </body>
+</html>

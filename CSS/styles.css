@@ -1,0 +1,35 @@
+.output {
+  display: none;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.navbar-header {
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+body {
+  padding-top: 70px;
+}
+
+#gradient {
+  background: linear-gradient(#8533ff, #e6e6e6);
+}
+
+img {
+  max-width: 600px;
+  max-height: 400px;
+}
+
+p {
+  font-size: 20px;
+}
+
+footer {
+  max-height: 20px;
+}
