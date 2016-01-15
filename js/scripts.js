@@ -1,10 +1,16 @@
 $(document).ready(function(){
   $("form#destination").submit(function(event) {
     var relax = $("input#relax").val();
-    var children = $("input#children").val();
-      if (relax === "relaxation" && children === "yes") {
+    var children = parseInt($("input#children").val());
+      if (relax === "relaxation" && children >= 1) {
       $("#output1").show();
-      }
+      } 
+
+      // else { var mtns = $("input#mtns").val();
+      // if (mtns === "beach" && children = 0) {
+      //   $("#output3").show();
+      //   }
+      // }
 
 
     event.preventDefault();
@@ -20,9 +26,3 @@ $(document).ready(function(){
 //      }
 
 //
-// else {
-//     var language = $("input#language").val();
-//       if(language === "no" && children === "no"){
-//       $("output3").show()
-//       }
-//   }
