@@ -4,15 +4,17 @@ $(document).ready(function(){
     var children = parseInt($("input#children").val());
       if (relax === "relaxation" && children >= 1) {
       $("#output1").show();
-      } 
+      }
 
-      // else { var mtns = $("input#mtns").val();
-      // if (mtns === "beach" && children = 0) {
-      //   $("#output3").show();
-      //   }
-      // }
+    var language = $("input#language").val();
+      if (language === "no") {
+        $("#output3").show();
+        }
 
-
+    var mtns = $("input#mtns").val();
+      if (mtns === "mountains") {
+        $("#output2").show();
+        }
     event.preventDefault();
     });
 });
